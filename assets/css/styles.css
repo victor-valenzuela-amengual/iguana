@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    height: 73px;
+    background-color: #1E1A13;
+    color: white;
+    text-align: center;
+}
+
+main {
+    /* border: 5px solid black; */
+    /* display: flex; */
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+div {
+    /* border: 1px solid red; */
+    width: 100%;    
+}
+
+div img {
+    width: 100%;
+    height: 600px;
+}
+
+.divmedio {
+    display: inline-block;
+    width: 43%;
+    /* border: 2px solid crimson;  */
+    /* margin-left: 10px; */
+    background-color: black;
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+
+.divmedio img {
+
+    height: 200px;
+    width: 300px;
+    margin-left: 50px;
+
+}
+
+.divcaract {
+    background-color: #1E1A13;
+    height: 40px;    
+    margin-top: 40px;  
+    /* border: 1px solid yellow; */
+}
+
+menu{
+    margin-top: 40px;  
+}
+menu li {
+    display: inline-block;
+    color: white;
+    width: 10%;
+    margin-left: 200px;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.divmenu{
+    background-color: #1E1A13;
+    height: 150px;    
+    margin-top: 0px;  
+    border: 1px solid #1E1A13;
+}
+.divfotosiguanas{
+    height: 140px;
+    width: 15%;    
+    margin-top: 40px;  
+    /* border: 1px solid yellow; */
+    display: inline-block;
+    /* margin-left: 10px; */
+    padding-left: 150px;
+    
+}
+.divfotos{
+    height: 150px;
+    width: 100%;
+    background-color: black;    
+    margin-top: 5px;  
+    /* border: 1px solid green; */
+    
+}
+.divfotosiguanas img{
+    height: 140px;
+    width: 200px;
+}
+.parrafo {
+    text-align: left;
+    font-weight: 300;
+    /* vertical-align: top; */
+    margin-left: 120px;
+    /* padding-top: 30px;  */
+}
+
+.textomenu{
+    margin-top: 12px;
+}
+.caracteristicas {    
+    color: white;  
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center; 
+    text-transform: uppercase;   
+}
+footer{
+    margin-top: 200px;
+    background-color: #1E1A13;  
+    height: 60px; 
+    color: white;
+}
+footer p{
+    text-align: center;
+    padding-top: 20px;
+}
+a:hover{
+    color: orange;
+}
